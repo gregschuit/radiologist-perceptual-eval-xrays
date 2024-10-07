@@ -22,7 +22,7 @@ def parse_args():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--prompt', type=str, required=True)
-    parser.add_argument('--roentgen_destination_images_dir', type=str, required=True) # '/home/gkschuit/magister-projects/data/synthetic/roentgen/'
+    parser.add_argument('--roentgen_destination_images_dir', type=str, required=True)
     parser.add_argument('--model_path', type=str, required=True)
     parser.add_argument('--device', type=str, required=False, default='cuda')
     parser.add_argument('--generator_seed', type=int, required=False, default=None)
