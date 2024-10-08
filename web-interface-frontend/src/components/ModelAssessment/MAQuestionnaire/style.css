@@ -1,0 +1,18 @@
+.questionnaire-container {
+    max-width: 50%;
+    margin: auto auto 2em auto;
+    text-align: center;
+}
+
+.questionnaire-item {
+    margin: 4em 0;
+}
+
+.questionnaire-item-header {
+    text-align: left;
+    margin: 1em 0;
+}
+
+.questionnaire-header {
+    text-align: left;
+}

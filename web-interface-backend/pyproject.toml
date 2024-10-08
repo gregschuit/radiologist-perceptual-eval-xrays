@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Gregory Schuit <gkschuit@uc.cl>"]
+readme = "README.md"
+packages = [
+    { include = "app" }
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.100.0"}
+pillow = "^10.0.0"
+pandas = "^2.0.3"
+numpy = "^1.25.1"
+python-dotenv = "^1.0.0"
+sqlalchemy = "^2.0.20"
+psycopg2-binary = "^2.9.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

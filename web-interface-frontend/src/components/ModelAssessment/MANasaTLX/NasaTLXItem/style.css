@@ -1,0 +1,26 @@
+.nasa-tlx-item-container {
+    margin: 4em 0;
+}
+
+.nasa-tlx-item-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+
+.nasa-tlx-item-header-title {
+    width: 30%;
+    text-align: left;
+}
+
+.nasa-tlx-item-header-question {
+    width: 60%;
+    text-align: right;
+}
+
+.nasa-tlx-item-labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

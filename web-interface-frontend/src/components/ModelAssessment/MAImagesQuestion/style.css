@@ -1,0 +1,75 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em 1em;
+    padding: 0;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    margin: 1em 1em;
+}
+
+.model-assessment-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 2em;
+}
+
+.model-assessment-images-questions-container {
+    margin: 0 1em;
+}
+
+.model-assessment-images-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.model-assessment-pacient-subsection {
+    margin: 0 1em;
+    flex-grow: 1;
+}
+
+.model-assessment-pacient-header {
+    text-align: left;
+}
+
+.model-assessment-image-slider-and-caption {
+    margin: 0 0 1em;
+}
+
+.model-assessment-image-and-slider {
+    display: inline-block;
+}
+
+.model-assessment-explanations-subsection {
+    flex-grow: 4;
+}
+
+.model-assessment-explanation-header {
+    text-align: left;
+}
+
+.model-assessment-explanation-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.model-assessment-images-questions-section {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.model-assessment-images-question-item {
+    text-align: left;
+    margin: 0 0 3em;
+}
+
+.model-assessment-images-question-submit-container {
+    text-align: center;
+}
