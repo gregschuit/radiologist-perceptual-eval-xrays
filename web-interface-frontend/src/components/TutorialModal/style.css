@@ -1,0 +1,31 @@
+.modal-centered-content {
+    text-align: center;
+    margin: auto;
+}
+
+.modal-two-cols-layout {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin: 1em 0;
+}
+
+.modal-left-col {
+    /* max-width: 60%; */
+    margin: 0 20px;
+}
+
+.modal-right-col {
+    max-width: 40%;
+    /* margin: 0 20px; */
+}
+
+.modal-accordion-container {
+    margin: 20px auto;
+    width: 95%;
+}
+
+.modal-right-col-stretch {
+    max-width: 30%;
+    margin: 1em;
+}
